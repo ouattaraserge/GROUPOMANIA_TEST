@@ -1,4 +1,5 @@
 const { Sequelize, DataTypes } = require("sequelize");
+//const { sequelize } = require("./models");
 const express = require("express");
 const sequelize = new Sequelize("groupotest", "root", "", {
   host: "localhost",
